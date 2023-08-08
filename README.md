@@ -1,36 +1,41 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# Pandas 基本講座
+LinkedInラーニングの「Pandas 基本講座」コース用のリポジトリです。このコースは [LinkedInラーニング][lil-course-url]で視聴できます。
 
-![course-name-alt-text][lil-thumbnail-url] 
+![Pandas 基本講座][lil-thumbnail-url] 
+ビッグデータを高速に処理できるようになった現在、データアナリストやデータサイエンティストの活躍の分野は大きく広がっています。PythonではPandasライブラリを使ってデータ分析を始めます。このコースはPandasの基本を学ぶ講座です。AnacondaをインストールしてJupyterノートブックでプログラムを作成し、Pandasライブラリでできることを学びます。データの抽出や連結、欠損値の処理やグループ化による集計などのPandasライブラリの関数やメソッドの機能の使い方だけでなく、MatplotlibやSeabornライブラリを使ってグラフを作成しデータを可視化して行く方法も説明します。データ分析をより身近に感じてもらえるように架空のスポーツクラブのデータを用意しました。このコースでデータアナリストやデータサイエンティストを目指す第一歩を踏み出しましょう。
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+## リポジトリの使い方
+このリポジトリには必要に応じてブランチが設けられています。ブランチのポップアップメニューを使用して、使用するブランチに切り替えたあとにコースを視聴してください。またURLに`「/tree/ブランチ名」`を追加することで、アクセスしたいブランチに移動することも可能です。
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+## ブランチ
+ブランチはレッスンごとに作成されている場合があります。その場合はブランチ名に`「章番号_レッスン番号」`が付けられています。例えば`「02_03」`という名前のブランチは、2章の上から3番目のレッスン用のブランチとなります。
 
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
+レッスン前と後のコードを格納しているブランチもあります。該当ブランチには「開始時」（beginning）を表す`「b」`と、「終了時」（ending）を表す`「e」` がブランチ名についています。`「b」`のブランチにはレッスン開始時点のコードが、`「e」`のブランチにはレッスン終了時点のコードが格納されています。また「main」のブランチにはコードの最終形が格納されています。
+
+ファイルに変更を加えた後に、エクササイズファイルのブランチを次のブランチに切り替えたさい、次のようなメッセージが表示されることがあります。
 
     error: Your local changes to the following files would be overwritten by checkout:        [files]
     Please commit your changes or stash them before you switch branches.
     Aborting
 
-To resolve this issue:
+この問題を解決するには：
 	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+    次のコマンドで変更を加えます：git add .
+	次のコマンドで変更をコミットします：git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+## インストール
+1. Anacondaをインストールしてください。
+	- [Anaconda](https://www.anaconda.com/download)
+2. notebookフォルダとdataフォルダを同じフォルダの同じ階層に配置してください。
+3. Jupyter Notebookを起動して、notebookを開いてください。
 
+### インストラクター
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+**金宏 和實**
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+_株式会社イーザー副社長、テクニカルライター_
 
+この講師の他のコースを視聴する：[LinkedInラーニング](https://www.linkedin.com/learning/instructors/21400000)
+
+[lil-course-url]: https://www.linkedin.com/learning/visual-studio-2022-essential-training
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGAa1zSEXi2Tw/learning-public-crop_675_1200/0/1691434156196?e=2147483647&v=beta&t=aYWRVBoP5xpkbF9ObzIXCw5JV3zJ0fFajK0MFYx9YYk
